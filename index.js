@@ -11,6 +11,11 @@ app.get("/", (req, res) => {
   res.send("Express on Vercel");
 });
 
+// trying to send JSON data
+app.get("/json", (req, res) => {
+  res.json("Express on Vercel");
+});
+
 // Initialize server
 app.listen(5000, () => {
   console.log("Running on port 5000.");

@@ -2,9 +2,9 @@
 
 // Import dependencies
 const express = require("express");
+const cors = require("cors");
 // const bodyParser = require("body-parser");
 // const compression = require("compression");
-// const cors = require("cors");
 // const helmet = require("helmet");
 // const path = require("path");
 
@@ -28,7 +28,7 @@ const app = express();
 
 // Apply middleware
 // Note: Keep this at the top, above routes
-// app.use(cors());
+app.use(cors());
 // app.use(compression());
 // app.use(bodyParser.urlencoded({ extended: false }));
 // app.use(bodyParser.json());

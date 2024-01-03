@@ -5,7 +5,7 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const compression = require("compression");
-// const helmet = require("helmet");
+const helmet = require("helmet");
 // const path = require("path");
 
 // Get the location of database.sqlite file
@@ -32,7 +32,7 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(compression());
-// app.use(helmet());
+app.use(helmet());
 // app.use(
 //   helmet.contentSecurityPolicy({
 //     useDefaults: false,

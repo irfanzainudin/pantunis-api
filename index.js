@@ -2,23 +2,23 @@
 
 // Import dependencies
 const express = require("express");
-const bodyParser = require("body-parser");
-const compression = require("compression");
-const cors = require("cors");
-const helmet = require("helmet");
-const path = require("path");
+// const bodyParser = require("body-parser");
+// const compression = require("compression");
+// const cors = require("cors");
+// const helmet = require("helmet");
+// const path = require("path");
 
 // Get the location of database.sqlite file
-const dbPath = path.resolve(__dirname, "db/database.sqlite");
+// const dbPath = path.resolve(__dirname, "db/database.sqlite");
 
-// Create connection to SQLite database
-const knex = require("knex")({
-  client: "sqlite3",
-  connection: {
-    filename: dbPath,
-  },
-  useNullAsDefault: true,
-});
+// // Create connection to SQLite database
+// const knex = require("knex")({
+//   client: "sqlite3",
+//   connection: {
+//     filename: dbPath,
+//   },
+//   useNullAsDefault: true,
+// });
 
 // Import routes
 // const pantunRouter = require("./routes/pantun-route");
@@ -28,8 +28,11 @@ const app = express();
 
 // Apply middleware
 // Note: Keep this at the top, above routes
-app.use(cors());
-app.use(helmet());
+// app.use(cors());
+// app.use(compression());
+// app.use(bodyParser.urlencoded({ extended: false }));
+// app.use(bodyParser.json());
+// app.use(helmet());
 // app.use(
 //   helmet.contentSecurityPolicy({
 //     useDefaults: false,
@@ -65,9 +68,6 @@ app.use(helmet());
 //   }),
 //   helmet.xssFilter()
 // );
-app.use(compression());
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
 
 // Implement pantun route
 // app.use("/pantun", pantunRouter);

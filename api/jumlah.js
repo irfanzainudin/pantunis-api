@@ -5,7 +5,7 @@ const knex = require("./db.js");
 const allowCors = require("./middlewares/allow-cors.js");
 
 // Count the number of pantuns in database
-async function handler(req, res) {
+function handler(req, res) {
   knex
     .count("*")
     .from("pantun") // from 'pantun' table

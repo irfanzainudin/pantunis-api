@@ -5,7 +5,7 @@ const knex = require("./db.js");
 const allowCors = require("./middlewares/allow-cors.js");
 
 // Retrieve specific pantun using a user-supplied word
-async function handler(req, res) {
+function handler(req, res) {
   // Find specific pantun in the database
   knex("pantun")
     .select("*")

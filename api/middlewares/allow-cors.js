@@ -1,4 +1,4 @@
-const allowCors = (fn) => async (req, res) => {
+const allowCors = (fn) => (req, res) => {
   res.setHeader("Access-Control-Allow-Credentials", true);
   res.setHeader("Access-Control-Allow-Origin", "https://www.pantunis.com/");
   res.setHeader("Vary", "Origin");
@@ -14,7 +14,7 @@ const allowCors = (fn) => async (req, res) => {
     res.status(200).end();
     return;
   }
-  return await fn(req, res);
+  return fn(req, res);
 };
 
 module.exports = allowCors;

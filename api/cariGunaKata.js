@@ -1,8 +1,11 @@
 // Import database
 const knex = require("./db.js");
 
+// Import middleware
+const allowCors = require("./middlewares/allow-cors.js");
+
 // Retrieve specific pantun using a user-supplied word
-export default async function handler(req, res) {
+async function handler(req, res) {
   // Find specific pantun in the database
   knex("pantun")
     .select("*")
@@ -23,3 +26,5 @@ export default async function handler(req, res) {
       });
     });
 }
+
+module.exports = allowCors(handler);

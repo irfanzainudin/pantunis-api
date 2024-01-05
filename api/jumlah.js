@@ -1,8 +1,11 @@
 // Import database
 const knex = require("./db.js");
 
+// Import middleware
+const allowCors = require("./middlewares/allow-cors.js");
+
 // Count the number of pantuns in database
-export default async function handler(req, res) {
+async function handler(req, res) {
   knex
     .count("*")
     .from("pantun") // from 'pantun' table
@@ -15,3 +18,5 @@ export default async function handler(req, res) {
       res.json({ message: `There was an error counting pantun: ${err}` });
     });
 }
+
+module.exports = allowCors(handler);

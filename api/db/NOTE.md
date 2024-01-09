@@ -9,3 +9,7 @@
 - bahulu
 - siakap
 - sikap
+
+## Popular "bayang" that should be in the database
+
+- Pecah kaca pecah gelas

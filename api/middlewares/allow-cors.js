@@ -1,5 +1,6 @@
 const allowCors = (fn) => (req, res) => {
   res.setHeader("Access-Control-Allow-Credentials", true);
+  // TODO: change this sh*t
   res.setHeader("Access-Control-Allow-Origin", "*");
   // res.setHeader("Access-Control-Allow-Origin", "https://www.pantunis.com");
   // res.setHeader("Vary", "Origin");

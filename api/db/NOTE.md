@@ -8,6 +8,7 @@
 
 - bahulu
 - sikap
+- goreng
 
 ## Popular "bayang" that should be in the database
 

@@ -46,3 +46,6 @@ index.js
 
 # sources
 api/db/SUMBER.md
+
+# backups
+api/db/db.sqlite

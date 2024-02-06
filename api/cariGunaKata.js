@@ -8,6 +8,7 @@ const allowCors = require("./middlewares/allow-cors.js");
 function handler(req, res) {
   // Find specific pantun in the database
   knex("pantun")
+    .join("sumber", "pantun.sumber", "=", "sumber.id")
     .select("*")
     // NOTE: orWhereILike() doesn't work for SQLite since SQLite is case-insensitive by default: https://github.com/sequelize/sequelize/issues/4384#issuecomment-134217570
     // NOTE: need to use req.query for URLs like "?kata=<KATA>": https://stackoverflow.com/questions/20089582/how-to-get-a-url-parameter-in-express

@@ -1,15 +1,15 @@
 # NOTE.md
 
-## Sources
-
-- First 1251 rows: Wilkinson & Winstedt
-
-## Words that should have pantun
+## Words that should have pantun (Disiderata)
 
 - bahulu
 - sikap
 - goreng
 - maksud
+- jurang
+- gembira
+- hormat
+- ganas
 
 ## Popular "bayang" that should be in the database
 

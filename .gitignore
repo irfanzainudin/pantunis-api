@@ -49,3 +49,4 @@ api/db/SUMBER.md
 
 # backups
 api/db/db.sqlite
+api/db/database_old.sqlite

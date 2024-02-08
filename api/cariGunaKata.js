@@ -9,7 +9,18 @@ function handler(req, res) {
   // Find specific pantun in the database
   knex("pantun")
     .join("sumber", "pantun.sumber", "=", "sumber.id")
-    .select("*")
+    .select(
+      "pantun.id as pantun_id",
+      "pantun.bayang1 as pantun_bayang1",
+      "pantun.bayang2 as pantun_bayang2",
+      "pantun.maksud1 as pantun_maksud1",
+      "pantun.maksud2 as pantun_maksud2",
+      "pantun.jenis as pantun_jenis",
+      "sumber.id as sumber_id",
+      "sumber.tajuk as sumber_tajuk",
+      "sumber.pengkarya as sumber_pengkarya",
+      "sumber.pautan as sumber_pautan"
+    )
     // NOTE: orWhereILike() doesn't work for SQLite since SQLite is case-insensitive by default: https://github.com/sequelize/sequelize/issues/4384#issuecomment-134217570
     // NOTE: need to use req.query for URLs like "?kata=<KATA>": https://stackoverflow.com/questions/20089582/how-to-get-a-url-parameter-in-express
     .whereLike("bayang1", "%" + req.query.kata + "%")

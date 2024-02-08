@@ -10,6 +10,7 @@
 - gembira
 - hormat
 - ganas
+- kenapa
 
 ## Popular "bayang" that should be in the database
 

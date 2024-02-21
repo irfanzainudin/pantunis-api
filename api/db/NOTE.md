@@ -17,4 +17,4 @@
 ## Tema untuk pantun
 
 - Pantun 1277 - 1282: Nasihat
--
+- Pantun 56061 - 56092: Merisik

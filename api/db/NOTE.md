@@ -14,6 +14,7 @@
 - sukan
 - sedih
 - teruja
+- meluat
 
 ## Popular "bayang" that should be in the database
 

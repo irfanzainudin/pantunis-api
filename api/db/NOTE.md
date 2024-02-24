@@ -12,6 +12,8 @@
 - prasasti (inscription - https://prpm.dbp.gov.my/Cari1?keyword=menara+gading&d=94740&#LIHATSINI)
 - bola
 - sukan
+- sedih
+- teruja
 
 ## Popular "bayang" that should be in the database
 

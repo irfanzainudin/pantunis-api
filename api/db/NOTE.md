@@ -9,6 +9,7 @@
 - gembira
 - ganas
 - kenapa
+- prasasti (inscription - https://prpm.dbp.gov.my/Cari1?keyword=menara+gading&d=94740&#LIHATSINI)
 
 ## Popular "bayang" that should be in the database
 

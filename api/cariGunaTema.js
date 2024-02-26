@@ -9,6 +9,7 @@ function handler(req, res) {
   knex("tema_pantun")
     .join("pantun", "tema_pantun.pantun", "=", "pantun.id")
     .join("tema", "tema_pantun.tema", "=", "tema.id")
+    .join("sumber", "pantun.sumber", "=", "sumber.id")
     .select(
       "pantun.id as pantun_id",
       "pantun.bayang1 as pantun_bayang1",
@@ -17,7 +18,10 @@ function handler(req, res) {
       "pantun.maksud2 as pantun_maksud2",
       "pantun.jenis as pantun_jenis",
       "tema.id as tema_id",
-      "tema.tema as tema"
+      "tema.tema as tema",
+      "sumber.tajuk as sumber_tajuk",
+      "sumber.pengkarya as sumber_pengkarya",
+      "sumber.pautan as sumber_pautan"
     )
     .whereLike("tema.id", req.query.tema)
     .then((response) => {

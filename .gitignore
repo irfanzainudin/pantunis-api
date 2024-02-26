@@ -43,6 +43,7 @@ api/server.js
 
 # For development
 index.js
+api/db/generate_sql.py
 
 # sources
 api/db/SUMBER.md

@@ -22,4 +22,7 @@
 
 ## Tema untuk pantun
 
+- Pantun 1277 - 1282: Nasihat
+- Pantun 1332 - 1355: Jenaka
+- Pantun 5000 - 5024: Jenaka
 - Pantun 56061 - 56092: Merisik

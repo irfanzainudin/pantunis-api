@@ -16,6 +16,14 @@
 - teruja
 - meluat
 
+### English words/phrases
+
+#### From A.W. Hamilton's Malay Pantuns
+
+- croon/crooned
+- in vogue
+- bawdy
+
 ## Popular "bayang" that should be in the database
 
 - Pecah kaca pecah gelas ✅
@@ -60,3 +68,5 @@
   - Pantun 55186 - 55192 ✅
 - Buat warga emas
   - Pantun 55193 - 55206 ✅
+- Teka teki
+  - Pantun

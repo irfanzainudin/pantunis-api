@@ -15,6 +15,7 @@
 - sedih
 - teruja
 - meluat
+- samudera
 
 ### English words/phrases
 

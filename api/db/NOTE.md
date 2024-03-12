@@ -16,6 +16,8 @@
 - teruja
 - meluat
 - samudera
+- maharaja
+- maharani
 
 ### English words/phrases
 

@@ -18,6 +18,7 @@
 - samudera
 - maharaja
 - maharani
+- tulisan
 
 ### English words/phrases
 

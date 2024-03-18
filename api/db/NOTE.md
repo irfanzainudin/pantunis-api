@@ -22,11 +22,20 @@
 
 ### English words/phrases
 
-#### From A.W. Hamilton's Malay Pantuns
+#### From Intro of A.W. Hamilton's Malay Pantuns
 
 - croon/crooned
 - in vogue
 - bawdy
+
+#### From the English translations of pantuns in A.W. Hamilton's Malay Pantuns
+
+- rice
+- sparrow
+- foot
+- cheek
+- nutmeg
+- wonder
 
 ## Popular "bayang" that should be in the database
 

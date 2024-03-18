@@ -19,6 +19,8 @@
 - maharaja
 - maharani
 - tulisan
+- racik
+- rachek
 
 ### English words/phrases
 

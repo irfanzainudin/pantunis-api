@@ -21,6 +21,7 @@
 - tulisan
 - racik
 - rachek
+- Isnin, Rabu, Khamis, Sabtu, Ahad
 
 ### English words/phrases
 

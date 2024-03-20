@@ -22,6 +22,8 @@
 - racik
 - rachek
 - Isnin, Rabu, Khamis, Sabtu, Ahad
+- olahraga
+- undang
 
 ### English words/phrases
 

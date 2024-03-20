@@ -24,6 +24,7 @@
 - Isnin, Rabu, Khamis, Sabtu, Ahad
 - olahraga
 - undang
+- sastera
 
 ### English words/phrases
 

@@ -26,6 +26,7 @@
 - undang
 - sastera
 - gitar
+- lengar
 
 ### English words/phrases
 

@@ -25,6 +25,7 @@
 - olahraga
 - undang
 - sastera
+- gitar
 
 ### English words/phrases
 

@@ -31,6 +31,9 @@
 
 ### English words/phrases
 
+- poem
+- poetry
+
 #### From Intro of A.W. Hamilton's Malay Pantuns
 
 - croon/crooned

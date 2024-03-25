@@ -49,5 +49,5 @@ api/db/generate_sql.py
 api/db/SUMBER.md
 
 # backups
-api/db/db.sqlite
+api/db/backup.sqlite
 api/db/database_old.sqlite

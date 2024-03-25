@@ -27,6 +27,7 @@
 - sastera
 - gitar
 - lengar
+- rembia
 
 ### English words/phrases
 

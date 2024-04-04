@@ -31,6 +31,17 @@
 
 ## Dragonflies
 
+- Taken from https://x.com/climateaidil/status/1775093353648177488?s=20
+- More complete source: https://rosliomarphotography.com/odonata-checklist-of-peninsular-malaysia/
+
+### Malay names of dragonflies
+
+- Gadis Desa / Malayan Grisette
+- Pepatung-jarum Sayaplebar / Broadwinged Damselflies
+- Sayaplebar Jelas Muka-putih / White-faced Clearwing
+- Sayaplebar Logam Hijau / Common Green Metalwing
+- Sayaplebar Logam Kaki-panjang / Long-legged Metalwing
+- Sayaplebar Kilat Jelas / Clear-winged Flashwing
 - Sayaptirus Peri Lembayung
 
 ### English words/phrases

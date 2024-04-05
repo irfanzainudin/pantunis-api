@@ -42,6 +42,11 @@
 - Sayaplebar Logam Hijau / Common Green Metalwing
 - Sayaplebar Logam Kaki-panjang / Long-legged Metalwing
 - Sayaplebar Kilat Jelas / Clear-winged Flashwing
+- Sayaplebar Kilat Menawan / Charming Flashwing
+- Sayaplebar Kilat / Common Flashwing
+- Pepatung-jarum Permata / Jewel Damselflies
+- Permata Emas / Golden Jewel
+- Permata Muka-oren / Orange-faced Jewel
 - Sayaptirus Peri Lembayung
 
 ### English words/phrases

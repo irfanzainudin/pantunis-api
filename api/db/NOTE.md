@@ -47,6 +47,11 @@
 - Pepatung-jarum Permata / Jewel Damselflies
 - Permata Emas / Golden Jewel
 - Permata Muka-oren / Orange-faced Jewel
+- Permata Menyala / Fiery Jewel
+- Permata Kuning / Yellow Jewel
+- Permata Sayap-jelas / Clearwing Jewel
+- Permata Magenta / Magenta-backed Jewel
+- Permata Biru / Common Blue Jewel
 - Sayaptirus Peri Lembayung
 
 ### English words/phrases

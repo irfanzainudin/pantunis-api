@@ -52,6 +52,11 @@
 - Permata Sayap-jelas / Clearwing Jewel
 - Permata Magenta / Magenta-backed Jewel
 - Permata Biru / Common Blue Jewel
+- Permata Merak / Peacock Jewel
+- Permata Perak / NA
+- Permata Sunda / Sunda Jewel
+- Pepatung-jarum Sayaphalus / Gossamerwing Damselflies
+- Sayaphalus Baldu Hitam / Black Velvetwing
 - Sayaptirus Peri Lembayung
 
 ### English words/phrases

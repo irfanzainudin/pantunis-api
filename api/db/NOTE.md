@@ -57,6 +57,11 @@
 - Permata Sunda / Sunda Jewel
 - Pepatung-jarum Sayaphalus / Gossamerwing Damselflies
 - Sayaphalus Baldu Hitam / Black Velvetwing
+- Sayaphalus Merah / Red Gossamerwing / Ochraceous Darkie
+- Sayaphalus Ujung-gelap / Dark-tipped Gossamerwing / Blue-sided Satinwing
+- Sayaphalus Gelap / NA
+- Pepatung-jarum Sayaptebar / Spreadwing Damselflies
+- Sayaptebar Pos-Terisu / NA
 - Sayaptirus Peri Lembayung
 
 ### English words/phrases

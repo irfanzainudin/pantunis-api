@@ -62,6 +62,12 @@
 - Sayaphalus Gelap / NA
 - Pepatung-jarum Sayaptebar / Spreadwing Damselflies
 - Sayaptebar Pos-Terisu / NA
+- Sayaptebar Taksekata / Crenulated Spreadwing / Scalloped Spreadwing
+- Sayaptebar Putih / NA
+-  Sayaptebar Besar / NA
+- Sayaptebar Gergasi / Great Spreadwing / Wallace’s Spreadwing
+- Sayaptebar Bintik-hitam / NA
+- Pepatung-jarum Ekorisyarat / NA
 - Sayaptirus Peri Lembayung
 
 ### English words/phrases

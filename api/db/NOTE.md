@@ -68,6 +68,11 @@
 - Sayaptebar Gergasi / Great Spreadwing / Wallace’s Spreadwing
 - Sayaptebar Bintik-hitam / NA
 - Pepatung-jarum Ekorisyarat / NA
+- Ekorisyarat Lembayung / Western Signaltail
+- Ekorisyarat Oren / NA
+- Pepatung-jarum Sayapdatar / Flatwing Damselflies
+- Sayapdatar Tompok-biru / Blue-spotted Flatwing / Common Phantom
+- Sayapdatar Gelap / Buwalda’s Flatwing
 - Sayaptirus Peri Lembayung
 
 ### English words/phrases

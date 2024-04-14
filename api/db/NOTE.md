@@ -73,6 +73,11 @@
 - Pepatung-jarum Sayapdatar / Flatwing Damselflies
 - Sayapdatar Tompok-biru / Blue-spotted Flatwing / Common Phantom
 - Sayapdatar Gelap / Buwalda’s Flatwing
+- Pepatung-jarum Perawan / Shadowdamsel Damselflies
+- Perawan Rimba / Foerster’s Shadowdamsel
+- Perawan Burma	/ NA
+- Perawan Perak / NA
+- Perawan Gunung / NA
 - Sayaptirus Peri Lembayung
 
 ### English words/phrases

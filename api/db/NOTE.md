@@ -78,6 +78,11 @@
 - Perawan Burma	/ NA
 - Perawan Perak / NA
 - Perawan Gunung / NA
+- Perawan Kecil / NA
+- Perawan Jarang / NA
+- Perawan Mata-air / NA
+- Perawan Semenanjung / Peninsular Shadowdamsel
+- Perawan Tembaga / NA
 - Sayaptirus Peri Lembayung
 
 ### English words/phrases

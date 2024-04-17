@@ -36,6 +36,8 @@
 
 ### Malay names of dragonflies
 
+Index: 40
+
 - Gadis Desa / Malayan Grisette
 - Pepatung-jarum Sayaplebar / Broadwinged Damselflies
 - Sayaplebar Jelas Muka-putih / White-faced Clearwing
@@ -83,6 +85,10 @@
 - Perawan Mata-air / NA
 - Perawan Semenanjung / Peninsular Shadowdamsel
 - Perawan Tembaga / NA
+- Perawan Brinchang / NA
+- Perawan Kedah / NA
+- Pepatung-jarum Sayaptirus / Narrow-winged damselflies
+- Sayaptirus Rawa Ekor-oren / Ornate Coraltail / Painted Coraltail / Bicolored Damsel / Orange Tailed Marsh Dart
 - Sayaptirus Peri Lembayung
 
 ### English words/phrases

@@ -89,6 +89,11 @@ Index: 40
 - Perawan Kedah / NA
 - Pepatung-jarum Sayaptirus / Narrow-winged damselflies
 - Sayaptirus Rawa Ekor-oren / Ornate Coraltail / Painted Coraltail / Bicolored Damsel / Orange Tailed Marsh Dart
+- Sayaptirus Rawa Ekor-hitam / Black-tailed Marsh Dart
+- Sayaptirus Rawa Karat / Rusty Marsh Dart
+- Sayaptirus Rawa Oren-kecil / Orange-tailed Sprite
+- Sayaptirus Rawa Menyala / Fiery Coraltail
+- Sayaptirus Rawa Oren-besar / NA
 - Sayaptirus Peri Lembayung
 
 ### English words/phrases

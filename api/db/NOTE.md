@@ -94,6 +94,11 @@ Index: 40
 - Sayaptirus Rawa Oren-kecil / Orange-tailed Sprite
 - Sayaptirus Rawa Menyala / Fiery Coraltail
 - Sayaptirus Rawa Oren-besar / NA
+- Sayaptirus Rawa Kelantan / NA
+- Sayaptirus Peri Biru-kecil / Blue Sprite / Blue Riverdamsel / Small-headed Sprite
+- Sayaptirus Peri Biru-besar / Look-alike Sprite
+- Sayaptirus Peri Kenit / Williamson’s Sprite
+- Sayaptirus Peri Kelabu / Grey Sprite / Ferruginous-faced Sprite
 - Sayaptirus Peri Lembayung
 
 ### English words/phrases

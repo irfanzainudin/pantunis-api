@@ -99,7 +99,11 @@ Index: 40
 - Sayaptirus Peri Biru-besar / Look-alike Sprite
 - Sayaptirus Peri Kenit / Williamson’s Sprite
 - Sayaptirus Peri Kelabu / Grey Sprite / Ferruginous-faced Sprite
-- Sayaptirus Peri Lembayung
+- Sayaptirus Peri Muka-oren / Orange-faced Sprite
+- Sayaptirus Peri Lembayung / Violet Sprite
+- Sayaptirus Peri Hidung-biru / Blue-nosed Sprite / Cyan Peri
+- Sayaptirus Peri Biru-muda / NA
+- Sayaptirus Peri Kecil / Rebecca’s Sprite / Rebecca’s Peri
 
 ### English words/phrases
 

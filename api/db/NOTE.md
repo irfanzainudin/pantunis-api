@@ -104,6 +104,11 @@ Index: 40
 - Sayaptirus Peri Hidung-biru / Blue-nosed Sprite / Cyan Peri
 - Sayaptirus Peri Biru-muda / NA
 - Sayaptirus Peri Kecil / Rebecca’s Sprite / Rebecca’s Peri
+- Sayaptirus Peri Jalur-panjang / Long-banded Bluetail
+- Sayaptirus Peri Ekor-merah / Red-tailed Sprite
+- Sayaptirus Peri Rajah / NA
+- Sayaptirus Peri Samar / NA
+- Sayaptirus Peri Jarang / Kirby’s Fineliner
 
 ### English words/phrases
 

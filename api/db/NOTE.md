@@ -110,6 +110,12 @@ Index: 40
 - Sayaptirus Peri Samar / NA
 - Sayaptirus Peri Jarang / Kirby’s Fineliner
 
+### Malay names of berries
+
+- Kertau / Mulberry
+- Cermai / Gooseberry
+- Terung pipit / Turkey berry
+
 ### English words/phrases
 
 - poem

@@ -109,6 +109,10 @@ Index: 40
 - Sayaptirus Peri Rajah / NA
 - Sayaptirus Peri Samar / NA
 - Sayaptirus Peri Jarang / Kirby’s Fineliner
+- Sayaptirus Paripari Ramping / Will-o-wisp
+- Sayaptirus Paripari Pahang / NA
+- Sayaptirus Paripari Sungai-bebar / NA
+- Sayaptirus Paripari Jarang / NA
 
 ### English words/phrases
 

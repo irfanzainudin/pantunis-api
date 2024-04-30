@@ -114,6 +114,12 @@ Index: 40
 - Sayaptirus Paripari Sungai-bebar / NA
 - Sayaptirus Paripari Jarang / NA
 
+### Malay names of berries
+
+- Kertau / Mulberry
+- Cermai / Gooseberry
+- Terung pipit / Turkey berry
+
 ### English words/phrases
 
 - poem

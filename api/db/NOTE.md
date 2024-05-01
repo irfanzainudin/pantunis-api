@@ -113,6 +113,11 @@ Index: 40
 - Sayaptirus Paripari Pahang / NA
 - Sayaptirus Paripari Sungai-bebar / NA
 - Sayaptirus Paripari Jarang / NA
+- Sayaptirus Gergasi / Dryad
+- Sayaptirus Berubah / Red-tipped Shadefly / Variable Shadowfly / Variable Sprite
+- Sayaptirus Kenit Putih / Pin-head Midget / Variable Wisp / White-backed Wisp
+- Sayaptirus Kenit Perantau / Wandering Midget / Pygmy Wisp / Wandering Wisp
+- Sayaptirus Kenit Biru-kecil / Lesser Blue Wisp
 
 ### Malay names of berries
 

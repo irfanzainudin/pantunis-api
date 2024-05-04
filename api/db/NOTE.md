@@ -118,6 +118,11 @@ Index: 40
 - Sayaptirus Kenit Putih / Pin-head Midget / Variable Wisp / White-backed Wisp
 - Sayaptirus Kenit Perantau / Wandering Midget / Pygmy Wisp / Wandering Wisp
 - Sayaptirus Kenit Biru-kecil / Lesser Blue Wisp
+- Sayaptirus Kenit Kecil / NA
+- Sayaptirus Kenit Ekor-biru / Common Bluetail / Tropical Bluetail
+- Sayaptirus Kenit Cangkuk / Hooked Midget
+- Sayaptirus Kenit Biru-besar / Blue Midget
+- Sayaptirus Kenit Bakau / Arthur’s Midget
 
 ### Malay names of berries
 

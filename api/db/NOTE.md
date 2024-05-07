@@ -123,6 +123,11 @@ Index: 40
 - Sayaptirus Kenit Cangkuk / Hooked Midget
 - Sayaptirus Kenit Biru-besar / Blue Midget
 - Sayaptirus Kenit Bakau / Arthur’s Midget
+- Sayaptirus Biru Kecil / NA
+- Sayaptirus Biru Langsing / Slim Blue
+- Sayaptirus Utara / Dusky Lilysquatter
+- Pepatung Kakiputih & Pepatung Ekorlembar / White-legged / Threadtail Damselflies
+- Kakiputih Rawa Hitam / Marsh Dancer / Black Marsh Dart
 
 ### Malay names of berries
 

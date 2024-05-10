@@ -128,6 +128,11 @@ Index: 40
 - Sayaptirus Utara / Dusky Lilysquatter
 - Pepatung Kakiputih & Pepatung Ekorlembar / White-legged / Threadtail Damselflies
 - Kakiputih Rawa Hitam / Marsh Dancer / Black Marsh Dart
+- Kakiputih Rimba Telefon / Telephone Sylvan / Bracketed Sylvan
+- Kakiputih Rimba Dua-tompok / Twin-spotted Sylvan / Spotted Sylvan
+- Kakiputih Rimba Ujung-putih / White-tipped Sylvan / White-tailed Sylvan
+- Kakiputih Rimba Ujung-biru / NA
+- Kakiputih Rimba Taman-negara / NA
 
 ### Malay names of berries
 

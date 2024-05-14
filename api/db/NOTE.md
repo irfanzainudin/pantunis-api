@@ -133,6 +133,11 @@ Index: 40
 - Kakiputih Rimba Ujung-putih / White-tipped Sylvan / White-tailed Sylvan
 - Kakiputih Rimba Ujung-biru / NA
 - Kakiputih Rimba Taman-negara / NA
+- Kakiputih Rimba Besar / Greater Sylvan
+- Kakiputih Bulu Berubah / Variable Featherleg / Blue Bush Dart / Red Featherleg
+- Kakiputih Bulu Kuning / Yellow Featherleg / Yellow Bush Dart
+- Kakiputih Bulu Biru / Light Blue Featherlegs / Black-kneed Featherleg
+- Kakiputih Gunung Kecil / NA
 
 ### Malay names of berries
 

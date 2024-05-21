@@ -138,6 +138,11 @@ Index: 40
 - Kakiputih Bulu Kuning / Yellow Featherleg / Yellow Bush Dart
 - Kakiputih Bulu Biru / Light Blue Featherlegs / Black-kneed Featherleg
 - Kakiputih Gunung Kecil / NA
+- Kakiputih Gunung Besar / NA
+- Ekorlembar Ujung-oren / Orange-tipped Threadtail
+- Ekorlembar Mata-merah / NA
+- Ekorlembar Belang-oren / Slender Threadtail / Orange-striped Threadtail
+- Ekorlembar Ujung-biru / Interrupted Threadtail
 
 ### Malay names of berries
 

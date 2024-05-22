@@ -216,3 +216,7 @@ Index: 40
   - Pantun 55193 - 55206 ✅
 - Teka teki
   - Pantun
+
+## Pantun that needs spelling revision/correction
+
+- Pantun #56081

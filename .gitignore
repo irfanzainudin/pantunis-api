@@ -36,18 +36,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 
-# old relics
-api/controllers/*
-api/routes/*
-api/server.js
-
 # For development
 index.js
-api/db/generate_sql.py
-
-# sources
-api/db/SUMBER.md
+index.html
+index.css
 
 # backups
 api/db/backup.sqlite
-api/db/database_old.sqlite

@@ -23,8 +23,13 @@ function handler(req, res) {
       "sumber.pengkarya as sumber_pengkarya",
       "sumber.pautan as sumber_pautan"
     )
-    // NOTE: orWhereILike() doesn't work for SQLite since SQLite is case-insensitive by default: https://github.com/sequelize/sequelize/issues/4384#issuecomment-134217570
-    // NOTE: need to use req.query for URLs like "?kata=<KATA>": https://stackoverflow.com/questions/20089582/how-to-get-a-url-parameter-in-express
+    // NOTE:
+    // 1. orWhereILike() doesn't work for SQLite since
+    // ... SQLite is case-insensitive by default:
+    // ... https://github.com/sequelize/sequelize/issues/4384#issuecomment-134217570
+    // 
+    // 2. Need to use req.query for URLs like "?kata=<KATA>":
+    // ... https://stackoverflow.com/questions/20089582/how-to-get-a-url-parameter-in-express
     .whereLike("bayang1", "%" + req.query.kata + "%")
     .orWhereLike("bayang2", "%" + req.query.kata + "%")
     .orWhereLike("maksud1", "%" + req.query.kata + "%")
@@ -40,9 +45,12 @@ function handler(req, res) {
       });
     });
 
-    // otherwise it'll cause an ERR_HTTP_HEADERS_SENT error
-    // -1 is arbitrary
-    // TODO: might cause problems in the future
+    // NOTE:
+    // 1. Not returning something will cause an ERR_HTTP_HEADERS_SENT error
+    // 
+    // 2. -1 is arbitrary
+    // 
+    // 3. TODO: might cause problems in the future
     return -1;
   }
   // Find specific pantun in the database
@@ -60,8 +68,13 @@ function handler(req, res) {
       "sumber.pengkarya as sumber_pengkarya",
       "sumber.pautan as sumber_pautan"
     )
-    // NOTE: orWhereILike() doesn't work for SQLite since SQLite is case-insensitive by default: https://github.com/sequelize/sequelize/issues/4384#issuecomment-134217570
-    // NOTE: need to use req.query for URLs like "?kata=<KATA>": https://stackoverflow.com/questions/20089582/how-to-get-a-url-parameter-in-express
+    // NOTE:
+    // 1. orWhereILike() doesn't work for SQLite since
+    // ... SQLite is case-insensitive by default:
+    // ... https://github.com/sequelize/sequelize/issues/4384#issuecomment-134217570
+    // 
+    // 2. Need to use req.query for URLs like "?kata=<KATA>":
+    // ... https://stackoverflow.com/questions/20089582/how-to-get-a-url-parameter-in-express
     .whereLike("bayang1", "%" + req.query.kata + "%")
     .orWhereLike("bayang2", "%" + req.query.kata + "%")
     .orWhereLike("maksud1", "%" + req.query.kata + "%")

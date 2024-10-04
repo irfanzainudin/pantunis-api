@@ -11,11 +11,11 @@ function handler(req, res) {
     .join("sumber", "pantun_fts.sumber", "=", "sumber.id")
     .select(
       "pantun_fts.id as pantun_fts_id",
-      "pantun_fts.bayang1 as pantun_fts_bayang1",
-      "pantun_fts.bayang2 as pantun_fts_bayang2",
-      "pantun_fts.maksud1 as pantun_fts_maksud1",
-      "pantun_fts.maksud2 as pantun_fts_maksud2",
-      "pantun_fts.jenis as pantun_fts_jenis",
+      "pantun_fts.bayang1 as pantun_bayang1",
+      "pantun_fts.bayang2 as pantun_bayang2",
+      "pantun_fts.maksud1 as pantun_maksud1",
+      "pantun_fts.maksud2 as pantun_maksud2",
+      "pantun_fts.jenis as pantun_jenis",
       "sumber.id as sumber_id",
       "sumber.tajuk as sumber_tajuk",
       "sumber.pengkarya as sumber_pengkarya",

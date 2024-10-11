@@ -1,0 +1,5 @@
+services:
+  ns:
+    container_name: 'ns'
+    image: 'irfanzainudin/ns'
+    restart: unless-stopped

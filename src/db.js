@@ -1,9 +1,9 @@
 // Connect to database
 
 // Import path module
-import path from "path";
+import path, { dirname } from "path";
 import { fileURLToPath } from 'url';
-import { dirname } from 'path';
+import knex from 'knex';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -13,8 +13,6 @@ const __dirname = dirname(__filename);
 const dbPath = path.resolve(__dirname, "db/database.sqlite");
 // DEV
 // const dbPath = path.resolve(__dirname, "db/dev.sqlite");
-
-import knex from "knex";
 
 const db = knex({
   client: "sqlite3",

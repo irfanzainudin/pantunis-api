@@ -1,5 +1,5 @@
 services:
-  ns:
-    container_name: 'ns'
-    image: 'irfanzainudin/ns'
+  pantunis-api:
+    container_name: 'pantunis-api'
+    image: 'irfanzainudin/pantunis-api'
     restart: unless-stopped

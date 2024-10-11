@@ -1,10 +1,10 @@
 import express from "express";
 // import knex from "./db";
 import cariGunaID from "./cariGunaID.js";
-// import cariGunaKata from "./cariGunaKata";
-// import cariGunaKataTepat from "./cariGunaKataTepat";
-// import cariGunaSumber from "./cariGunaSumber";
-// import cariGunaTema from "./cariGunaTema";
+import cariGunaKata from "./cariGunaKata.js";
+import cariGunaKataTepat from "./cariGunaKataTepat.js";
+import cariGunaSumber from "./cariGunaSumber.js";
+import cariGunaTema from "./cariGunaTema.js";
 import jumlah from "./jumlah.js";
 
 const app = express();
@@ -16,6 +16,16 @@ app.get('/', (req, res) => {
 });
 
 app.get('/jumlah', jumlah);
+
+app.get('/cariGunaID', cariGunaID);
+
+app.get('/cariGunaKata', cariGunaKata);
+
+app.get('/cariGunaKataTepat', cariGunaKataTepat);
+
+app.get('/cariGunaSumber', cariGunaSumber);
+
+app.get('/cariGunaTema', cariGunaTema);
 
 app.listen(PORT, () => {
     console.log(`Server is running on port: ${PORT}.`);

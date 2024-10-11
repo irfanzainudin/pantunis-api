@@ -1,8 +1,8 @@
 // Import database
-const knex = require("./db.js");
+import knex from "./db.js";
 
 // Import middleware
-const allowCors = require("./middlewares/allow-cors.js");
+import allowCors from "./middlewares/allow-cors.js";
 
 // Retrieve specific pantun using a user-supplied word
 function handler(req, res) {
@@ -89,6 +89,6 @@ function handler(req, res) {
         message: `There was an error retrieving pantun ${req.query.kata}: ${err}`,
       });
     });
-}
+};
 
-module.exports = allowCors(handler);
+export default allowCors(handler);

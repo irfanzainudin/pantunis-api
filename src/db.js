@@ -1,11 +1,16 @@
 // Connect to database
+
 // Import path module
-// const path = require("path");
 import path from "path";
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // Get the location of database.sqlite file
 // PROD
-const dbPath = path.resolve("./db/database.sqlite", "./database.sqlite");
+const dbPath = path.resolve(__dirname, "db/database.sqlite");
 // DEV
 // const dbPath = path.resolve(__dirname, "db/dev.sqlite");
 
@@ -16,7 +21,7 @@ const db = knex({
   connection: {
     filename: dbPath,
   },
-  // useNullAsDefault: true,
+  useNullAsDefault: true,
 });
 
 // Create a table in the database called "pantun"

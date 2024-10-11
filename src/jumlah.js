@@ -1,9 +1,7 @@
 // Import database
-// const knex = require("./db.js");
-import knex from "./conn_db.js";
+import knex from "./db.js";
 
 // Import middleware
-// const allowCors = require("./middlewares/allow-cors.js");
 import allowCors from "./middlewares/allow-cors.js";
 
 // Count the number of pantuns in database
@@ -19,8 +17,6 @@ function handler(req, res) {
       // Send a error message in response
       res.json({ message: `There was an error counting pantun: ${err}` });
     });
-}
-
-// module.exports = allowCors(handler);
+};
 
 export default allowCors(handler);

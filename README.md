@@ -10,4 +10,4 @@ This is only for production. For development, please refer to [package.json](htt
 
 ## Running with Docker
 
-`docker run -it -p 3001:3001 --name pantunis-api irfanzainudin/pantunis-api:latest`
+`docker run -dit -p 3001:3001 --name pantunis-api irfanzainudin/pantunis-api:latest`

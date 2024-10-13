@@ -41,3 +41,4 @@ yarn-error.log*
 
 # Database backups
 src/db/backup.sqlite
+src/db/dev.sqlite

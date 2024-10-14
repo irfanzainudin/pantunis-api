@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 // import knex from "./db";
 import jumlah from "./jumlah.js";
 import cariGunaID from "./cariGunaID.js";
@@ -9,6 +10,7 @@ import cariGunaTema from "./cariGunaTema.js";
 import dermaPantun from "./dermaPantun.js";
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({
     extended: true

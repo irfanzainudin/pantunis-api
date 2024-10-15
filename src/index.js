@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 3002;
 const NODE_ENV = process.env.NODE_ENV || "development";
 
 app.get('/', (req, res) => {
-    return res.status(200).send(`<h1>Hello World! NODE_ENV is ${NODE_ENV}</h1>`);
+    return res.status(200).send(`<h1>Hello World, this is the Pantunis API landing page! NODE_ENV is ${NODE_ENV}</h1>`);
 });
 
 app.get('/jumlah', jumlah);

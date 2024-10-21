@@ -37,9 +37,6 @@ yarn-error.log*
 *.tsbuildinfo
 
 # For development
-index.js
-index.html
-index.css
 src/db/dev.sqlite
 
 # Database backups

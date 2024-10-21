@@ -40,12 +40,14 @@ yarn-error.log*
 index.js
 index.html
 index.css
-api/db/dev.sqlite
+src/db/dev.sqlite
 
-# backups
-api/db/backup.sqlite
+# Database backups
+src/db/backup.sqlite
 
-# Docker -- temporary
+# Docker
 .dockerignore
 compose.yaml
 Dockerfile
+Dockerfile.dev
+Dockerfile.prod

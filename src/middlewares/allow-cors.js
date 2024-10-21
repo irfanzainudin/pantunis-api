@@ -19,4 +19,4 @@ const allowCors = (fn) => (req, res) => {
   return fn(req, res);
 };
 
-module.exports = allowCors;
+export default allowCors;

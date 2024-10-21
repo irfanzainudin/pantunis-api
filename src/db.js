@@ -1,5 +1,12 @@
+// Connect to database
+
 // Import path module
-const path = require("path");
+import path from "path";
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // Get the location of database.sqlite file
 // PROD
@@ -7,8 +14,9 @@ const dbPath = path.resolve(__dirname, "db/database.sqlite");
 // DEV
 // const dbPath = path.resolve(__dirname, "db/dev.sqlite");
 
-// Create connection to SQLite database
-const knex = require("knex")({
+import knex from "knex";
+
+const db = knex({
   client: "sqlite3",
   connection: {
     filename: dbPath,
@@ -17,7 +25,7 @@ const knex = require("knex")({
 });
 
 // Create a table in the database called "pantun"
-knex.schema
+db.schema
   // Make sure no "pantun" table exists
   // before trying to create new
   .hasTable("pantun")
@@ -28,7 +36,7 @@ knex.schema
       // "maksud1" and "maksud2" columns
       // and use "id" as a primary identification
       // and increment "id" with every new record (pantun)
-      return knex.schema
+      return db.schema
         .createTable("pantun", (table) => {
           table.increments("id").primary();
           table.string("bayang1");
@@ -55,7 +63,7 @@ knex.schema
 
 // Just for debugging purposes:
 // Log all data in "pantun" table
-knex
+db
   .select("*")
   .from("pantun")
   // .then((data) => console.log("data:", data)) // NOTE: keeping my dev server's log clean
@@ -63,4 +71,6 @@ knex
   .catch((err) => console.log(err));
 
 // Export the database
-module.exports = knex;
+// module.exports = knex;
+
+export default db;

@@ -2,21 +2,39 @@
   "name": "pantunis-api",
   "version": "0.1.0",
   "description": "API for Pantunis",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js --watch *"
+  "main": "src/index.js",
+  "type": "module",
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
   },
-  "keywords": [],
-  "author": "Irfan Zainudin <https://twitter.com/irfan__zainudin>",
-  "license": "ISC",
+  "homepage": "api.pantunis.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/irfanzainudin/pantunis-api"
+  },
+  "author": {
+    "name": "Irfan Zainudin",
+    "email": "m.irfan.zain@gmail.com",
+    "url": "https://github.com/irfanzainudin"
+  },
+  "scripts": {
+    "dev": "",
+    "test": "",
+    "start:dev": "nodemon ./src/index.js",
+    "docker-build:dev": "docker build -t irfanzainudin/pantunis-api:latest -f Dockerfile.dev .",
+    "docker-run:dev": "docker run -it -p 3000:3000 --name pantunis-api -v ./:/app -v my-node-modules:/app/node_modules irfanzainudin/pantunis-api:latest",
+    "docker-build": "docker build -t irfanzainudin/pantunis-api:latest -f Dockerfile.prod .",
+    "docker-run": "docker run -it -p 3001:3001 --name pantunis-api irfanzainudin/pantunis-api:latest",
+    "start": "node ./src/index.js"
+  },
   "dependencies": {
+    "express": "^4.21.1",
     "knex": "^3.1.0",
     "path": "^0.12.7",
-    "sqlite3": "^5.1.7-rc.0"
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
-    "express": "^4.18.2",
-    "nodemon": "^3.0.1",
-    "sqlite3": "^5.1.6"
+    "nodemon": "^3.1.7"
   }
 }

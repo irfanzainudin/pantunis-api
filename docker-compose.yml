@@ -1,0 +1,5 @@
+services:
+  pantunis-api:
+    container_name: 'pantunis-api'
+    image: 'irfanzainudin/pantunis-api'
+    restart: unless-stopped

@@ -45,7 +45,12 @@ api/db/dev.sqlite
 # backups
 api/db/backup.sqlite
 
-# Docker -- temporary
+# Docker
 .dockerignore
 compose.yaml
 Dockerfile
+# Dockerfile.dev
+
+# Database backups
+src/db/backup.sqlite
+src/db/dev.sqlite

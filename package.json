@@ -10,15 +10,15 @@
     "node": ">= 14.0.0",
     "npm": ">= 6.0.0"
   },
-  "homepage": "",
+  "homepage": "api.pantunis.com",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/irfanzainudin/pantunis-api"
   },
   "bugs": "",
   "keywords": [],
   "author": {
-    "name": "",
+    "name": "Irfan Zainudin",
     "email": "m.irfan.zain@gmail.com",
     "url": "https://github.com/irfanzainudin"
   },
@@ -27,9 +27,9 @@
     "dev": "",
     "test": "",
     "start:dev": "nodemon ./src/index.js",
-    "docker-build:dev": "docker build --platform linux/amd64,linux/arm64 -t irfanzainudin/pantunis-api:latest -f Dockerfile.dev .",
+    "docker-build:dev": "docker build -t irfanzainudin/pantunis-api:latest -f Dockerfile.dev .",
     "docker-run:dev": "docker run -it -p 3000:3000 --name pantunis-api -v ./:/app -v my-node-modules:/app/node_modules irfanzainudin/pantunis-api:latest",
-    "docker-build": "docker build --platform linux/amd64,linux/arm64 -t irfanzainudin/pantunis-api:latest -f Dockerfile.prod .",
+    "docker-build": "docker build -t irfanzainudin/pantunis-api:latest -f Dockerfile.prod .",
     "docker-run": "docker run -it -p 3001:3001 --name pantunis-api irfanzainudin/pantunis-api:latest",
     "start": "node ./src/index.js"
   },

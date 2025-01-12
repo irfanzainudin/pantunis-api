@@ -8,6 +8,11 @@ import cariGunaKataTepat from "./cariGunaKataTepat.js";
 import cariGunaSumber from "./cariGunaSumber.js";
 import cariGunaTema from "./cariGunaTema.js";
 import dermaPantun from "./dermaPantun.js";
+import jumlah from "./jumlah.js";
+
+// import path, { dirname } from "path";
+// import { fileURLToPath } from 'url';
+// import fs from "fs";
 
 const app = express();
 app.use(cors());
@@ -16,12 +21,24 @@ app.use(express.urlencoded({
     extended: true
 }));
 
+// const PORT = process.env.PORT || 3000;
+// const NODE_ENV = process.env.NODE_ENV || "development";
 const PORT = process.env.PORT || 3002;
 const NODE_ENV = process.env.NODE_ENV || "development";
 
 app.get('/', (req, res) => {
     return res.status(200).send(`<h1>Hello World, this is the Pantunis API landing page! NODE_ENV is ${NODE_ENV}</h1>`);
 });
+
+// const __filename = fileURLToPath(import.meta.url);
+// const __dirname = dirname(__filename);
+
+// app.get('/', (req, res) => {
+//     // return res.status(200).send(`<h1>Hello World! NODE_ENV is ${NODE_ENV}</h1>`);
+//     fs.readFile(path.resolve(__dirname, "index.html"), 'utf8', (err, text) => {
+//         res.status(200).send(text);
+//     });
+// });
 
 app.get('/jumlah', jumlah);
 

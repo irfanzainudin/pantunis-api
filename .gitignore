@@ -37,19 +37,18 @@ yarn-error.log*
 *.tsbuildinfo
 
 # For development
-index.js
-index.html
-index.css
-api/db/dev.sqlite
+src/db/dev.sqlite
 
-# backups
-api/db/backup.sqlite
+# Database backups
+src/db/backup.sqlite
 
 # Docker
 .dockerignore
 compose.yaml
 Dockerfile
 # Dockerfile.dev
+Dockerfile.dev
+Dockerfile.prod
 
 # Database backups
 src/db/backup.sqlite

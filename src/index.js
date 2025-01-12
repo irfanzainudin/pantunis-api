@@ -8,7 +8,6 @@ import cariGunaKataTepat from "./cariGunaKataTepat.js";
 import cariGunaSumber from "./cariGunaSumber.js";
 import cariGunaTema from "./cariGunaTema.js";
 import dermaPantun from "./dermaPantun.js";
-import jumlah from "./jumlah.js";
 
 // import path, { dirname } from "path";
 // import { fileURLToPath } from 'url';
